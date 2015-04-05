@@ -1,0 +1,60 @@
+@import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
+
+div {
+	margin: 0 auto;
+}
+
+#container {
+	margin: 4em;
+}
+
+#calc {
+	margin: 0 auto;
+	width: 380px;
+	color: #fff;
+	background-color: #333;
+	border-radius: 1em;
+	border: .35em outset #555;
+	box-shadow: .5em .5em 2em #bbb, .2em .2em 1em #444;
+}
+
+#display {
+	padding: .3em .75em;
+	margin: 1em;
+	border: 2px inset #808080;
+	border-radius: .25em;
+	background-color: #ddd;
+	box-shadow: -.5em -.5em .7em #2b2b2b, .5em .5em .7em #444;
+	text-align: right;
+	overflow: hidden;
+}
+
+#displayTxt {
+	color: #444;
+	font-size: 3em;
+	font-family: 'Share Tech Mono';
+}
+
+.buttonRow {
+	text-align: center;
+}
+
+button {
+	width: 70px;
+	text-align: center;
+	padding: .75em 1.5em;
+	margin: .75em .50em;
+	display: inline-block;
+	border: 1.5px outset #50d0f0;
+	border-radius: 1em;
+	background-color: #3af;
+	box-shadow: .4em .4em 1em #222, .4em .4em 1em #444;
+}
+
+button:active {
+	border: 1.5px inset #5df;
+}
+
+button:focus {
+	outline: 0;
+}
